@@ -10,10 +10,20 @@
     <body>
         <main class="container-fluid">
             <h1>Memory!</h1>
+            <section class ="row">
+                <div class="col-md-4">
+                    <button type="button" id ="start" class="btn btn-primary">Let's Play!</button>
+                </div>
+                <div class="col-md-4">
+                    <p id="msg"> New Game Started</p>
+                </div>
+                <div class="col-md-4">
+                    <a href="http://games.answers.com/card-games/how-to-play-the-memory-card-game" target="_blank" >
+                        Instructions</a>
+                </div>
+            </section>
 
-            <button type="button" id ="start" class="btn btn-primary">Let's Play!</button>
-
-            <section>
+            <section class="row">
                 <div class="col-md-3">
                     <p id="elapsed-seconds">Timer: 0s</p>
                 </div>
@@ -30,8 +40,6 @@
                     <p id="matches-missed">Matches Missed: 0</p>
                 </div>
             </section>
-
-            <p id="msg"> New Game Started</p>
 
             <div id="game-board"></div>
 

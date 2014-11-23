@@ -16,7 +16,17 @@ p {
     font-size: 150%;
 }
 
+a {
+    font-size: 150%;
+    color: #FF0000;
+    text-decoration: underline;
+}
+
 #msg {
+    display: none;
+}
+
+#error {
     display: none;
 }
 
