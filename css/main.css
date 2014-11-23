@@ -16,6 +16,10 @@ p {
     font-size: 150%;
 }
 
+#msg {
+    display: none;
+}
+
 #congrats {
     margin-top: 100px;
     display: none;
